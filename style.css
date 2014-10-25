@@ -1,0 +1,116 @@
+body{
+
+	max-width: 1100px;
+	padding: 0;
+	margin: auto;
+	padding-top: .5em;
+	font-family: sans-serif;
+}
+h1 { color: #1291AD; text-shadow: 2px 1px #636363;}
+p {color: #636363;}
+.upmenu{ padding-bottom: .5em;}
+#titleImg{
+	width: 300px;
+	height: 75px;
+	overflow: hidden;
+	display: inline-block;
+	//background-color: blue;
+	margin: auto;
+}
+#titleImg img{ width: 100%; height: 100%; }
+.menuItem{
+	width: 150px;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.menuTitle{
+	padding: .3em;
+	font-family: sans-serif;
+	color: white;
+}
+.menuImg{
+
+}
+
+#bkgr_blue{ background-color: #e8dd30; }
+#bkgr_red{ background-color: #e83069; }
+#bkgr_green{ background-color: #49B255; }
+#bkgr_purple{ background-color: #865bff; }
+#bkgr_orange{ background-color: #ffa142; }
+
+//#bkgr_blue:hover{ background-color: #82c4c3; }
+//#bkgr_red:hover{ background-color: #ff7442; }
+//#bkgr_green:hover{ background-color: #29cc50; }
+//#bkgr_purple:hover{ background-color: #997d5a; }
+//#bkgr_orange:hover{ background-color: #cc8020 }
+
+#bkgr_blue:hover, #bkgr_red:hover, #bkgr_green:hover, #bkgr_purple:hover, #bkgr_orange:hover, #titleImg{ background-color: #16ACCF; cursor: pointer; }
+
+.half{
+	width: 530px;
+	//background-color: green;
+	display: inline-block;
+	max-height: 300px;
+}
+
+.third{
+	width: 350px;
+	max-height: 300px;
+	display: inline-block;
+}
+
+.twoThird{
+	width: 700px;
+	max-height: 300px;
+	display: inline-block;
+}
+
+.half img{
+	width: 530px;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.third img{
+	overflow: hidden;
+	width: 350px;
+	height: 280px;
+}
+#scroll { overflow: scroll;}
+
+.half ul{
+	list-style: none;
+}
+.half ul li { font-style: italic; padding: .1em;}
+.half ul li span{
+	font-size: .6em;
+	color: #636363;
+}
+#blurbOne{
+	display: none;
+	font-style: italic;
+	color: #1291AD;
+	padding-left: .5em;
+}
+
+
+#getInvolved:after{content: "Get Involved"; position: absolute; top: 100%; left: 5%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+#getHere{}
+#history{}
+#team{}
+#tenants{}
+#contact:hover, #direct:hover, #team:hover, #perform:hover, #exhibit:hover, #learn:hover, #getInvolved:hover { opacity: .8;}
+#perform:after{content: "Perform"; position: absolute; top: 100%; left: 5%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+#exhibit:after{content: "Exhibit"; position: absolute; top: 100%; left: 35%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+#learn:after{content: "Learn"; position: absolute; top: 100%; left: 65%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+
+#contact:after{content: "Contact Us"; position: absolute; top: 100%; left: 5%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+#direct:after{content: "Directions"; position: absolute; top: 100%; left: 35%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+#team:after{content: "Our Team"; position: absolute; top: 100%; left: 65%; font-size: 2em; color: white; text-shadow: 2px 1px #636363;}
+
+
+
+
+#scroll ul li:hover{ background-color: rgba(157, 232, 93, 0.6);}
+
